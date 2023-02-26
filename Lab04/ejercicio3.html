@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <div>
+        <fieldset >
+            <legend>Detalles de la foto</legend>
+            <table width ="100%">
+                <tr>
+                    <td colspan="2">
+                        <p>
+                            <label for="titulo">Titulo</label>
+                            <br>
+                            <input  type="text" name="titulo" id="titulo">
+                        </p>
+                        <p>
+                            <label for="descripcion">Descripcion</label>
+                            <br>
+                            <textarea name="" id="" cols="60" rows="10"></textarea>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td rowspan="2">
+                        <p>
+                            <label for="continente">Continente</label>
+                            <br>
+                            <select name="continente" id="contiente">
+                                <option value="escojer">Escoger el contienente</option>
+                                <option value="africa">Africa</option>
+                                <option value="asia">Asia</option>
+                                <option value="europa">Europa</option>
+                                <option value="noramerica">Norte América</option>
+                                <option value="suramerica">Sur América</option>
+                            </select>
+                        </p>
+                        <p>
+                            <label for="pais">País</label>
+                            <br>
+                            <select name="pais" id="pais">
+                                <option value="pais">País</option>
+                                <option value="canada">Canada</option>
+                                <option value="mex">México</option>
+                                <option value="eua">Estados Unidos</option>
+                            </select>
+                        </p>
+                        <p>
+                            <label for="ciudad">Ciudad</label>
+                            <br>
+                            <input list="ciudades" name="ciudades" />
+                            <datalist id="ciudades">
+                                <option value="Puebla">Puebla</option>
+                                <option value="Milan">Milan</option>
+                                <option value="Sydney">Sydney</option>
+                                <option value="NewJersey">New Jersey</option>
+                            </datalist>
+                        </p>
+                        <p>
+                            <label for="acepto">Acepto la licencia de software</label>
+                            <input type="checkbox" name="acepto" id="acepto">
+                        </p>
+                        <p>
+                            <label for="calif">Califica esta foto:</label>
+                            <br>
+                            <input type="number" name="calif" id="calif">
+                        </p>
+                        <p>
+                            <label for="color">Corrección de color:</label>
+                            <br>
+                            <input type="color" name="color" id="color">
+                        </p>
+                        <p>
+                            <input type="submit" value="Enviar">
+                            <input type="reset" value="Limpiar">
+                        </p>
+                    </td>
+                    <td>
+                        <p>
+                            <label for="copy">Copyright? </label>
+                        <br>
+                        <label><input type="radio" name="copy" value="todos">Todos los derechos reservados</label>
+                        <br>
+                        <label><input type="radio" name="copy" value="commons" checked>Creative Commons</label>
+                        </p>
+                        <p>
+                            <label for="lic">Licencias Creative Commons</label>
+                            <br>
+                            <label><input type="checkbox" name="Atribucion">Atribución</label>
+                            <br>
+                            <label><input type="checkbox" name="NoComercial">No comercial</label>
+                            <br>
+                            <label><input type="checkbox" name="NoDerivativos">No hay trabajos derivativos</label>
+                            <br>
+                            <label><input type="checkbox" name="Compartir">Compartir con todos</label>
+                        </p>
+                    </td>
+                    <tr>
+                        <td>
+                            <p>
+                                <label for="fecha">Fecha de toma: </label>
+                                <br>
+                                <input type="date" name="fecha" id="fecha">
+                            </p>
+                            <p>
+                                <label for="time">Hora de toma: </label>
+                                <br>
+                                <input type="time" name="time" id="time">
+                            </p>
+                        </td>
+                    </tr>
+                </tr>
+            </table>
+        </fieldset>
+    </div>
+</body>
+</html>
