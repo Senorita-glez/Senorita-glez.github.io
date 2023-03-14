@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,700&family=Lato:wght@400;700&family=Mukta:wght@400;500;600;700&family=PT+Sans&family=PT+Serif:wght@400;700&family=Poppins:wght@200;300&family=Six+Caps&family=Work+Sans:wght@300;400&display=swap');
+
+body {
+    background-image: url("images/art-background4.jpg");
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-position: initial;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  h1{
+    font-family: 'Six Caps', sans-serif;
+    font-size: 3.5em;
+    margin: 2vh 6vh 0vh 2vh;
+  }
+
+  header> h2 {
+    margin: 0vh 6vh 1vh 2vh;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    font-family: 'Mukta', sans-serif;
+    font-weight: 600;
+  }
+
+
+  header{
+    background-color: white;
+    width: max-content;
+    position:absolute;
+    top:0;
+    left:9%;
+    height: 9em;
+    margin-bottom: 5%;
+    align-content: initial;
+  }
+
+  article > * {
+    text-indent: 3vh;
+  }
+ 
+  article{
+    margin-left:8.65%;
+    margin-top: 15em;
+    background-color: rgba(255, 255, 255, 0.335);
+    width: fit-content;
+    padding-right: 11vh;
+    height: fit-content;
+  }
+
+  article h2{
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 2vh 6vh 2vh 0vh;
+    width: 100%;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-right: 11vh;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 3.5vh;
+  }
+  
+  article>p:nth-child(3){
+    background-color: rgba(2, 2, 2, 0.564);
+    margin: 0vh 12vh 4vh 2vh;
+    padding-top: 1vh;
+    padding-bottom: 1.5vh;
+    padding-right: 3.5vh;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 4vh;
+    color: white;
+    font-weight: 700;
+  }
+
+  article>p:nth-child(2){
+    font-family: 'PT Serif', serif;
+    font-size: 3.5vh;
+    font-weight: 700;
+    margin-bottom: 1vh;
+    margin-top: 3.5vh;
+  }
+
+  footer{
+    background-color: rgba(255, 255, 255, 0.911);
+    padding-right: 11vh;
+    padding-top: 3vh;
+    padding-bottom: 6vh;
+    padding-bottom: 3.5vh;
+    width: 100%
+  }
+
+  footer> a{
+    border-bottom:2px dotted #9999CC;
+    text-decoration:none;
+    padding-left: 20px;
+  }
+
