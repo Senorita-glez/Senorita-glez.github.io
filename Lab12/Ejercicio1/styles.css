@@ -1,0 +1,134 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,700&family=Lato:wght@400;700&family=Mukta:wght@400;500;600;700&family=PT+Sans&family=PT+Serif:wght@400;700&family=Poppins:wght@200;300&family=Roboto:ital,wght@0,300;0,400;1,400&family=Six+Caps&family=Work+Sans:wght@300;400&display=swap');
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #333;
+	font-family: mukta;
+}
+
+header{
+	margin-top: 0;
+	background-color: #81919f;
+	padding: .5rem;
+}
+
+header h1{
+	margin: auto;
+	padding-left: 5rem;
+}
+
+.contenedor {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(4, 1fr);
+	grid-gap: 5px;
+	width: 500px;
+	height: 500px;
+	margin-bottom: 50px;
+	margin: 0 auto 50 auto;
+	background-color: #ddd;
+	border: 5px solid #ddd;
+	margin-top: 1rem;
+}
+
+.cuadro {
+	background-color: #aaa;
+	color: #fff;
+	font-size: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+
+.vacio {
+	background-color: #ddd;
+	cursor: default;
+}
+
+.cuadro:hover {
+	background-color: #777;
+}
+
+.cuadro.vacio:hover {
+	background-color: #ddd;
+}
+
+@media screen and (max-width: 400px) {
+	.contenedor {
+		width: 200px;
+		height: 200px;
+	}
+
+	.cuadro {
+		font-size: 30px;
+	}
+}
+
+#game {
+	width: fit-content;
+	height: max-content;
+	margin: auto;
+}
+
+#game p, #game span{
+	color: #fff;
+	font-size: 1.3rem;
+}
+
+
+#btnR {
+	margin-left: 1rem;
+	margin: 1.4rem;
+	background: #81919f;
+	border: 1px solid #81919f;
+	border-radius: 6px;
+	box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+	box-sizing: border-box;
+	color: #FFFFFF;
+	cursor: pointer;
+	display: inline-block;
+	font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
+	font-size: 16px;
+	font-weight: 800;
+	line-height: 16px;
+	min-height: 40px;
+	outline: 0;
+	padding: 14px 4rem 14px 4rem;
+	text-align: center;
+	text-rendering: geometricprecision;
+	text-transform: none;
+	user-select: none;
+	-webkit-user-select: none;
+	touch-action: manipulation;
+	vertical-align: middle;
+	font-size: 1.5rem;
+}
+
+#btnR:hover,
+#btnR:active {
+	background-color: initial;
+	background-position: 0 0;
+	color: #81919f;
+}
+
+#btnR:active {
+	opacity: .5;
+}
+
+.messages{
+	display: flex;
+	flex-direction: row;
+}
+
+.messages div{
+	width: 50%;
+	align-self: center;
+	text-align: center;
+}
+
+.btnS{
+	text-align: center;
+}
